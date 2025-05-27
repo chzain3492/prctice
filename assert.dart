@@ -1,4 +1,6 @@
 void main() {
-  int? lineCount;
-  assert(lineCount == null, 'lineCount should be null');
-// }
+  int temperature = 25;
+  assert(temperature >= 0, 'Temperature cannot be negative');
+  print('Temperature: $temperature°C');
+}
+// 
